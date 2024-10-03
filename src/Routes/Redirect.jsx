@@ -122,7 +122,7 @@ function Redirect() {
                   <Route
                     exact
                     path="*"
-                    element={token ? <Outlet /> : <Navigate to="/login" />}
+                    element={token ? <Outlet /> : <Navigate to="/" />}
                   />
                 </Routes>
               }
