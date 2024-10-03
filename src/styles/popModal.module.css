@@ -1,0 +1,35 @@
+.customModal {
+    width: 35%;
+}
+
+.customModal :global(.p-dialog-header) {
+    padding: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+.customModal :global(.p-dialog-header-icon) {
+    width: auto !important;
+    justify-content: flex-end !important;
+}
+
+.customModal :global(.p-dialog-header-icon:enabled:hover) {
+    background-color: transparent !important;
+}
+
+.customModal :global(.p-dialog-header-icon:focus) {
+    box-shadow: none !important;
+}
+
+.customModal img {
+    width: 100px;
+    height: 100px;
+}
+
+.customModal p {
+    color: #222D39;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.578px; /* 107.692% */
+}
